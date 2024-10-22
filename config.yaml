@@ -1,0 +1,9 @@
+# Model configuration
+model_id: "Xuanyuan/MRI_brain_tumor_seg"
+device: "cuda"
+
+# Training configuration
+data_dir: "path/to/your/dataset"
+batch_size: 4
+learning_rate: 1e-5
+num_epochs: 10
