@@ -76,7 +76,7 @@ To use this dataset:
 2. Utility functions (`utils.py`) for calculating evaluation metrics (SSIM and PSNR).
 3. A configuration file (`config.yaml`) for easy customization of training parameters.
 4. Updates to the main app (`app.py`) to allow using the finetuned model.
-5.Updated README with instructions for finetuning and information about the dataset and evaluation metrics.
+5. Updated README with instructions for finetuning and information about the dataset and evaluation metrics.
 
 The chosen public dataset for this project is the Brain Tumor MRI Dataset from Kaggle, which contains a good variety of brain MRI images for finetuning purposes.
 The evaluation metrics (SSIM and PSNR) are calculated during the validation phase of training and provide a quantitative measure of the generated image quality compared to the original images.
@@ -84,10 +84,10 @@ The evaluation metrics (SSIM and PSNR) are calculated during the validation phas
 
 To use this updated project:
 
-Set up the environment and install dependencies as described in the README.
-Prepare your dataset and update the config.yaml file.
-Run the training script to finetune the model.
-Use the Streamlit app to generate Brain MRI images, with the option to use the finetuned model.
+- Set up the environment and install dependencies as described in the README.
+- Prepare your dataset and update the config.yaml file.
+- Run the training script to finetune the model.
+- Use the Streamlit app to generate Brain MRI images, with the option to use the finetuned model.
 
 
 ## Note
