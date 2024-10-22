@@ -6,7 +6,7 @@ This Streamlit app generates Brain MRI images using a pre-trained diffusion mode
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/brain-mri-generator.git
+   git clone https://github.com/sumanthpalla/brain-mri-generator.git
    cd brain-mri-generator
    ```
 
